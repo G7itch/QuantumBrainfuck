@@ -1,6 +1,6 @@
 from math import sqrt
 
-class QuauntumBrainfuck():
+class QuantumBrainfuck():
 
     def __init__(self,size=10):
         self.__one = [0,1]
@@ -159,4 +159,4 @@ class QuauntumBrainfuck():
     def __repr__(self) -> str:
         return str(self.__tape)
 
-a = QuauntumBrainfuck()
+a = QuantumBrainfuck()
